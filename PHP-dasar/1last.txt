@@ -1,0 +1,65 @@
+HelloWorld
+TipeDataNumber
+TipeDataBoolean
+TipeDataString
+Variable
+Variables
+Constant
+TipeDataNull
+TipeDataArray
+ArrayLanjutan
+OperatorAritmatika
+OperatorPenugasan
+OperatorPerbandingan
+OperatorLogika
+IncrementDecrement
+OperatorArray
+Teori
+ManipulasiString
+IfStatement
+SwitchStatement
+TernaryOperator
+NullCoalescingOperator
+ForLoop
+WhileLoop
+DoWhileLoop
+BreakContinue
+ForEachLoop
+GotoOperator
+Function
+FunctionArgument
+TypeDeclaration
+ArgumentList
+FunctionReturnValue
+ReturnTypeDeclaration
+VariableFunction
+AnonymousFunction
+ArrowFunction
+CallbackFunction
+RecursiveFunction
+StringFunction
+ArrayFunction
+IsFunction
+RequireInclude and Lib/MyFunction
+VariableScope
+Reference
+PassByReference
+
+
+
+
+
+32
+1:21
+     1:56 
+2:08
+     2:26
+     2:46
+3:01
+3:17 
+     3:43
+3:56
+     4:10
+4:10
+     4:43
+     4;52
