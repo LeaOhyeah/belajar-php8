@@ -1,0 +1,153 @@
+========== basic (folder) ========== 
+101
+data -> Person
+Object
+data -> User
+Properties
+data -> Account
+Function
+Constant
+data -> Construct
+ConstructDestruct
+
+========== inheritance (folder) ==========
+101
+data -> Manager
+Inheritance
+data -> VicePresident
+
+========== Namespace ==========
+data-> Confilct
+Namespace
+data-> Helper
+
+Import
+Alias
+ImportGroup
+
+========== access (folder) ==========
+access
+data->product
+
+========== overriding (folder) ==========
+101
+data-> Manager
+overriding
+
+========== Polymorphism ==========
+data-> Programmer
+Polymorphism
+
+========== Abstract ==========
+data -> Location
+Abstract 
+data -> Animal
+Afunction (Abstract function)
+
+========== Encapsulation ==========
+data -> Category
+Encapsulation
+
+========== Interface ==========
+data -> Car
+Interface
+
+========== Interface Inheritance (folder) ==========
+data -> Car
+InterfaceInheritance
+
+========== Trait (folder) ==========
+data -> Say
+Trait
+data -> Run
+Atrait (Abstract Trait)
+data -> Person
+Override (Trait Override)
+Confilct
+data -> Trait (Trait Inheritance)
+
+
+========== Final Class and Function ==========
+Final 
+
+========== Anonynmous Class ==========
+data -> Anonynmous
+
+========== Static Keyword (folder (helper)) ==========
+data -> MathHelper
+Static
+
+
+
+
+
+19:06
+     22:00
+39:20
+	52:00
+54:00
+1:13:00
+1:37
+2:08
+2:20
+2:28
+2:38
+2:56
+
+
+catatan
+abstract class 	= tidak dapat dibuat objek secara langsung
+abstract function 	= tidak dapat menaruh block dan return data
+anonynmous function	= atau closure (function tanpa nama didalam variable atau argument)
+anonynmous class 	= class tanpa nama yang dapat meng-instansi objek secara langsung
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Persiapan sebelum mengikuti
+sudah mengerti sistem operasi windows / linux, HTML, CSS, (wajib) 
+sudah mengerti cara kerja internet, HTTP (lebih baik)
+sudah mengerti database sql (lebih baik)
+
+Pertemuan pertama "PHP Dasar"
+	sudah menginstal PHP 8>, text editor (wajib)
+	
+Pertemuan kedua "PHP OOP"
+	sudah mengerti materi sebelumnya (wajib)
+	
+Pertemuan ketiga "Arsitektur MVC & PHP MySQL Dasar (studi kasus)"
+	sudah mengerti materi sebelumnya (wajib)
+	sudah menginstal database(MySQL), web server(Apache) (wajib)
+	sudah mengerti database MySQL (lebih baik)
+	
+Pertemuan keempat "Framework & Laravel (pengenalan)"
+	sudah mengerti materi sebelumnya (wajib)
+	sudah menginstal Composer (wajib)
+	sudah mengerti PHP Composer (lebih baik)
+	
+Pertemuan kelima "Laravel Dasar (studi kasus)"
+	sudah mengerti materi sebelumnya (wajib)
+	sudah menginstal Laravel 10 (wajib)
+	
+Target selanjutnya (pelajari sendiri)
+	Cara keja internet dan HTTP
+	Version Control
+	PHP Composer
+	PHP MySQL (lanjutan)
+	PHP Unit Test
+	PHP Logging
+	Laravel (lanjutan)
+	API dengan Laravel
+
+
+

@@ -1,0 +1,12 @@
+overriding
+kemampuan mendeklarasikan ulang function di child class, yang sudah ada di parent class nya
+saat melakukan ini function yang ada di parent tidak dapat diakses lagi (tertimpa)
+
+parent keyword 
+kadang kita ingin mengakses function yang ada pada parent tetapi terlanjur melakukan overriding 
+untuk melakukan nya dengan keyword parent
+
+constructor overriding
+karena constructor sama seperti function, maka constructor pun bisa dideklarasikan ulang di child nya
+sebenarnya juga bisa meng overriding function dengan argument yang berbeda namun sangat tidak disarankan (muncul warning)
+namun pada constructor boleh mengubah argument nya dan disarankan memanggil argument parent juga

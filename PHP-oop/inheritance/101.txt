@@ -1,0 +1,10 @@
+Apa itu inheritance?
+inheritance atau pewarisan adalah kemampuan untuk menurunkan class pada class lain (dalam artian parent dan child)
+class child hanya bisa memiliki satu parent sedangkan parent dapat memiliki banyak class child atau turunan
+saat sebuah class diturunkan maka child akan memiliki seluruh atributes, properties dan function yang dimiliki parent nya
+
+
+Membuat child class 
+class NamaClass extend NamaClassParent {
+     
+}

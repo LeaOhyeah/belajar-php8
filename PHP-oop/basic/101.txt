@@ -1,0 +1,18 @@
+Apa itu Object Oriented Programming?
+adalah sudut pandang bahasa pemrograman yang berkonsep "objek", ada banyak sudut pandang dalam pemrograman, namun OOP adalah
+yang paling populer. Beberapa istilah yang perlu dimengerti dalam OOP adalah object dan class.
+
+-    Object adalah data yang berisi field / properties / atributes dan method / function / behavior
+-    Class adalah blueprint, prototype atau cetakan untuk membuat Object. (tidak dapat membuat Object tanpa Class).
+     Berisi deklarasi semua field / properties / atributes dan method yang dimiliki sebuah Object (standard object tersebut).
+     Setiap Object dibuat dari Class. Sebuah Class bisa membuat Object tanpa batas
+
+Contoh Class Car
+     Memiliki brand, id number (variables)
+     Memiliki function move_forward(), reverse(), stop(),
+
+Contoh Object
+     brand Avanza, id number S 101 
+
+     brand Supra, id number S 102 
+
