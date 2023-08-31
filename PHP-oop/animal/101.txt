@@ -1,0 +1,8 @@
+Covariance
+saat meng override function dari parent class, kita bisa meng override function dengan return value
+yang lebih spesifik pada turunan nya, contoh parent class adalah number dan child class one, two, three
+misal pada awalnya retrun value adalah number, pada child bisa spesifik ke one, two, three
+
+Contravariance
+sedangkan contravariance memperbolehkan sebuah child untuk membuat function dengan data tidak spesifik
+(deklarasi awal child, override nya parent) 

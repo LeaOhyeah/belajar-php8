@@ -1,0 +1,19 @@
+regular expression (regex)
+PHP mendukung regex yang kompatible dengan bahasa pemrograman prel
+ini merupakankan fitur yang digunakan untuk melakukan pencarian string menggunakan pola tertentu
+*manual pcre pattern PHP
+beberapa function yang sering digunakan akan dibahas
+
+preg_match($pattern, $subject) 
+- mendapatkan satu nilai yang cocok
+
+preg_match_all($pattern, $subject) 
+- mendapatkan semua nilai yang cocok
+- return berupa jumlah data yang ditemukan, tetapi bisa juga diganti boo
+- dapat menambahkan satu argument lagi yang nanti menampung array kembalian (reference)
+
+preg_replace($pattern, $replacement, $subject)
+- me replace semua pattern dengan replacement
+
+preg_split($pattern, $subject)
+- memotong dengan pattern menjadi array

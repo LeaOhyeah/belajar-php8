@@ -1,0 +1,11 @@
+========== pengenalan PDO ========== 
+pengenalan
+PDO (PHP Data Object) yaitu sebuah spesifikasi interface untuk standar komunikasi antara PHP dengan database,
+PDO adalah sebuah spesifikasi, sehingga kita butuh implementasi nya atau extension nya untuk mengaktifkan PDO
+PDO menyediakan abstraction layer yang sama untuk semua database, hal ini membuat penggunaan PDO lebih flexible
+dibandingkan menggunakan function-function bawaan dari driver bawaan database nya
+
+cara kerja
+kode program -> PDO -> PDO driver (misal mysql) -> database
+
+

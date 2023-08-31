@@ -1,0 +1,28 @@
+dalam PHP disediakan cara memanipulasi waktu dengan class DateTime
+ada banyak function yang ada di DateTime *manual PHP bebrapa akan kita bahas
+sebelumnya untuk mengubah time zone buka file php.ini (yang di install)
+
+
+function set
+beberapa function set yang sering digunakan, seperti setTime, setDate dan setTimestamp
+fungsinya untuk memanipulasi object DateTime
+
+date interval
+kita juga bisa melakukan spesifik penambahan (interval) seperti menambah 1 tahun, 2 minggu, etc.
+dengan funtion add() dan mengirim argument berupa date interval dan harus menggunakan date interval duration
+*untuk nilai interval dapat dibaca di manual PHP
+
+date time zone
+saat membuat waktu secara otomatis akan sesuai dengan waktu saat ini di php.ini, namun kita bisa mengubahnya
+secara manual ke satu object dengan function setTimeZone(), argument yang bisa dikirim adalah object DateTimeZone
+lalu argument yang dikirim dalam DateTimeZone dapat dilihat di manual PHP (list support time zone)
+
+format 
+kadang kita ingin membuat representasi string dari DateTime, hal ini bisa dilakukan dengan function format()
+function ini menerima argument berupa format tanggal ke string *dapat dilihat di manual PHP
+
+parse date time
+selain format date time ke string, kadang kita juga melakukan hal sebaliknya
+untuk melakukan itu dengan static function createFromFormat() dari class DateTime
+argument nya (format, string, time zone(terdapat default))
+jika argument string tidak sesuai format maka return static function tersebut adalah false

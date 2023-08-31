@@ -1,0 +1,21 @@
+overloading
+kemampuan secara dinamis membuat function atau property
+ini mirip meta programing di Ruby, tetapi berbeda dengan overloading di java
+ini erat kaitan nya dengan magic function
+
+property overloading
+jika mengakses property b maka tidak langsung error tetapi melakukan fallback atau memanggil magic function
+dengan demikian kita bisa memanfaatkan magic function untuk membuat property
+tetapi jika magic function tidak ada maka akan terjadi error
+magic function yang digunakan untuk property:
+__set($name, $value): void, ketika mengubah property undefined
+__get($name): mixed, ketika mengakses property undefined
+__isset($name): bool, ketika melakukan isset atau empty property undefined
+__unset($name): void, ketika melakukan unset property undefined
+
+function overloading 
+saat memanggil function yang tidak tersedia didalam objek maka sebetulnya tidak langsung error
+PHP akan melakukan fallback ke magic function, jika tidak ada baru terjadi error
+magic function yang digunakan untuk function:
+__call($name, $arguments) : mixed, ketika memanggil function yang tidak tersedia
+'static' __callStatic($name, $arguments) : mixed, ketika memanggil static function yang tidak tersedia

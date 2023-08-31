@@ -1,0 +1,34 @@
+saat membuat aplikasi, kita tidak akan terhindar dengan yang namanya error
+error direpresentasikan dengan istilah exception (juga dalam class Exception)
+kita bisa membuat class Exception sendiri atau tanpa membuatnya sudah disediakan PHP
+jika ingin membuat class seperti Exception maka harus implement interface throwable dan turunan-turunannya
+tetapi dari pada implement throwable lebih baik extends class exception tanpa membuat function interface di throwable
+membuat exception (error) -> (exception/ValidationException)
+
+
+melakukan validasi saat error
+biasanya error terjadi pada function, 
+untuk membuatnya pada kode program dengan keyword throw di ikuti ojek error nya
+-> (helper/Validation)
+
+
+          
+studi kasus 
+-> data/User
+-> Login
+
+try catch
+saat memanggil function yang bisa menyebabkan exception, maka disarankan menggunakan try catch
+gunanya untuk menangkap exception yang terjadi, karena jika tidak ditangkap maka program otomatis berhenti
+pada block try digunakan untuk memanggil function yang dapat mengakibatkan exception 
+pada block catch adalah aksi yang dilakukan jika terjadi exception
+
+finally keyword
+dalam try catch kita bisa menambahkan block finally
+ini adalah block dimana akan selalu dieksekusi baik terjadi exception ataupun tidak
+ini sangat cocok jika ingin melakukan sesuatu, tidak peduli ada error ataupun tidak
+misal pada try kita ingin membaca file, di catch kita tangkap jika terjadi error, dan di finally kita wajib menutup koneksi
+ke file tersebut tidak peduli sukses atau gagal agar tidak terjadi memory leak atau data menggantung di memory
+
+debug exception
+exception di PHP memiliki function getTrace() berisikan informasi dari exception yang terjadi dalam bentuk array
